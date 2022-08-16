@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\2_9_정수와_실수\bin\Debug\2_9_정수와_실수.exe.config
+C:\Users\qazws\Desktop\Study\C#\2_9_정수와_실수\bin\Debug\2_9_정수와_실수.exe
+C:\Users\qazws\Desktop\Study\C#\2_9_정수와_실수\bin\Debug\2_9_정수와_실수.pdb
+C:\Users\qazws\Desktop\Study\C#\2_9_정수와_실수\obj\Debug\2_9_정수와_실수.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\2_9_정수와_실수\obj\Debug\2_9_정수와_실수.exe
+C:\Users\qazws\Desktop\Study\C#\2_9_정수와_실수\obj\Debug\2_9_정수와_실수.pdb
