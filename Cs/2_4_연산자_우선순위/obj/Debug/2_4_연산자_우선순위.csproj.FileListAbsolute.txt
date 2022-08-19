@@ -1,7 +1,0 @@
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\bin\Debug\2_4_연산자_우선순위.exe.config
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\bin\Debug\2_4_연산자_우선순위.exe
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\bin\Debug\2_4_연산자_우선순위.pdb
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\obj\Debug\2_4_연산자_우선순위.csproj.AssemblyReference.cache
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\obj\Debug\2_4_연산자_우선순위.csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\obj\Debug\2_4_연산자_우선순위.exe
-C:\Users\qazws\Desktop\Study\C#\2_4_연산자_우선순위\obj\Debug\2_4_연산자_우선순위.pdb

@@ -1,6 +1,0 @@
-C:\Users\qazws\Desktop\Study\C#\2_5_나머지_연산자\bin\Debug\2_5_나머지_연산자.exe.config
-C:\Users\qazws\Desktop\Study\C#\2_5_나머지_연산자\bin\Debug\2_5_나머지_연산자.exe
-C:\Users\qazws\Desktop\Study\C#\2_5_나머지_연산자\bin\Debug\2_5_나머지_연산자.pdb
-C:\Users\qazws\Desktop\Study\C#\2_5_나머지_연산자\obj\Debug\2_5_나머지_연산자.csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\C#\2_5_나머지_연산자\obj\Debug\2_5_나머지_연산자.exe
-C:\Users\qazws\Desktop\Study\C#\2_5_나머지_연산자\obj\Debug\2_5_나머지_연산자.pdb

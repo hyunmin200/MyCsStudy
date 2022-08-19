@@ -1,6 +1,0 @@
-C:\Users\qazws\Desktop\Study\C#\Write(),WriteLine()\bin\Debug\Write(),WriteLine().exe.config
-C:\Users\qazws\Desktop\Study\C#\Write(),WriteLine()\bin\Debug\Write(),WriteLine().exe
-C:\Users\qazws\Desktop\Study\C#\Write(),WriteLine()\bin\Debug\Write(),WriteLine().pdb
-C:\Users\qazws\Desktop\Study\C#\Write(),WriteLine()\obj\Debug\Write(),WriteLine().csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\C#\Write(),WriteLine()\obj\Debug\Write(),WriteLine().exe
-C:\Users\qazws\Desktop\Study\C#\Write(),WriteLine()\obj\Debug\Write(),WriteLine().pdb
