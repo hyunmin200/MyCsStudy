@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_문자", "..\008_문자
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_불", "..\009_불\009_불.csproj", "{70303FC4-8DD2-46E8-9621-FE94FD26D3AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_if_조건문", "..\010_if_조건문\010_if_조건문.csproj", "{73ADBFAE-4EEC-4FE2-A916-FE7461DE1C9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{70303FC4-8DD2-46E8-9621-FE94FD26D3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70303FC4-8DD2-46E8-9621-FE94FD26D3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70303FC4-8DD2-46E8-9621-FE94FD26D3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ADBFAE-4EEC-4FE2-A916-FE7461DE1C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ADBFAE-4EEC-4FE2-A916-FE7461DE1C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ADBFAE-4EEC-4FE2-A916-FE7461DE1C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ADBFAE-4EEC-4FE2-A916-FE7461DE1C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
