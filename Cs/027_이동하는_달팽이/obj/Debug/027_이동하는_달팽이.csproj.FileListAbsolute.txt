@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\027_이동하는_달팽이\bin\Debug\027_이동하는_달팽이.exe.config
+C:\Users\qazws\Desktop\Study\C#\027_이동하는_달팽이\bin\Debug\027_이동하는_달팽이.exe
+C:\Users\qazws\Desktop\Study\C#\027_이동하는_달팽이\bin\Debug\027_이동하는_달팽이.pdb
+C:\Users\qazws\Desktop\Study\C#\027_이동하는_달팽이\obj\Debug\027_이동하는_달팽이.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\027_이동하는_달팽이\obj\Debug\027_이동하는_달팽이.exe
+C:\Users\qazws\Desktop\Study\C#\027_이동하는_달팽이\obj\Debug\027_이동하는_달팽이.pdb

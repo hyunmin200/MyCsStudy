@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\023_중첩_반복문\bin\Debug\023_중첩_반복문.exe.config
+C:\Users\qazws\Desktop\Study\C#\023_중첩_반복문\bin\Debug\023_중첩_반복문.exe
+C:\Users\qazws\Desktop\Study\C#\023_중첩_반복문\bin\Debug\023_중첩_반복문.pdb
+C:\Users\qazws\Desktop\Study\C#\023_중첩_반복문\obj\Debug\023_중첩_반복문.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\023_중첩_반복문\obj\Debug\023_중첩_반복문.exe
+C:\Users\qazws\Desktop\Study\C#\023_중첩_반복문\obj\Debug\023_중첩_반복문.pdb
