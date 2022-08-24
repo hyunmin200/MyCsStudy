@@ -4,3 +4,4 @@ C:\Users\qazws\Desktop\Study\C#\028_무한_반복하며_이동\bin\Debug\028_무
 C:\Users\qazws\Desktop\Study\C#\028_무한_반복하며_이동\obj\Debug\028_무한_반복하며_이동.csproj.CoreCompileInputs.cache
 C:\Users\qazws\Desktop\Study\C#\028_무한_반복하며_이동\obj\Debug\028_무한_반복하며_이동.exe
 C:\Users\qazws\Desktop\Study\C#\028_무한_반복하며_이동\obj\Debug\028_무한_반복하며_이동.pdb
+C:\Users\qazws\Desktop\Study\C#\028_무한_반복하며_이동\obj\Debug\028_무한_반복하며_이동.csproj.AssemblyReference.cache

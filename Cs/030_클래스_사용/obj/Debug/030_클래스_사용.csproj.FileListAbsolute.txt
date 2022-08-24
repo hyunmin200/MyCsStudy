@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\bin\Debug\030_클래스_사용.exe.config
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\bin\Debug\030_클래스_사용.exe
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\bin\Debug\030_클래스_사용.pdb
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\obj\Debug\030_클래스_사용.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\obj\Debug\030_클래스_사용.exe
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\obj\Debug\030_클래스_사용.pdb
+C:\Users\qazws\Desktop\Study\C#\030_클래스_사용\obj\Debug\030_클래스_사용.csproj.AssemblyReference.cache
