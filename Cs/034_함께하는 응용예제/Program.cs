@@ -36,15 +36,46 @@ namespace _034_함께하는_응용예제
                 new Student() { name = "200원", grade = 2 },
                 new Student() { name = "나이름", grade = 3 },
                 new Student() { name = "김이름", grade = 4 },
-                new Student() { name = "김이름", grade = 5 },
+                new Student() { name = "김이름", grade = 1 },
                 new Student() { name = "박이름", grade = 2 },
                 new Student() { name = "성이름", grade = 3 }
             };
+
+            //리스트 제거 메서드
+            //Remove(object element)
+            //RemoveAt(int index)
+
+            //foreach(var item in list)
+            //{
+            //    if(item.grade > 1)
+            //    {
+            //        list.Remove(item);
+            //    }
+            //}
+            //foreach 반복문을 사용하여 요소 제거를 할 수 없다.
+            //for(int i = 0; i < list.Count; i++)
+            //{
+            //    if(list[i].grade > 1)
+            //    {
+            //        list.RemoveAt(i);
+            //    }
+            //}
+            
+            //LIst를 제거할 때는 무조건 역 for문을 써야한다
+            for (int i = list.Count - 1; i >= 0; i--)
+            {
+                if (list[i].grade > 1)
+                {
+                    list.RemoveAt(i);
+                }
+            }
 
             foreach (var item in list)
             {
                 Console.WriteLine(item.name + " : " + item.grade);
             }
+
+            //
         }
     }
 }

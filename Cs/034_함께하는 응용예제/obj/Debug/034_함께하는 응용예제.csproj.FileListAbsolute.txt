@@ -4,3 +4,4 @@ C:\Users\qazws\Desktop\Study\C#\034_함께하는 응용예제\bin\Debug\034_함�
 C:\Users\qazws\Desktop\Study\C#\034_함께하는 응용예제\obj\Debug\034_함께하는 응용예제.csproj.CoreCompileInputs.cache
 C:\Users\qazws\Desktop\Study\C#\034_함께하는 응용예제\obj\Debug\034_함께하는 응용예제.exe
 C:\Users\qazws\Desktop\Study\C#\034_함께하는 응용예제\obj\Debug\034_함께하는 응용예제.pdb
+C:\Users\qazws\Desktop\Study\C#\034_함께하는 응용예제\obj\Debug\034_함께하는 응용예제.csproj.AssemblyReference.cache
