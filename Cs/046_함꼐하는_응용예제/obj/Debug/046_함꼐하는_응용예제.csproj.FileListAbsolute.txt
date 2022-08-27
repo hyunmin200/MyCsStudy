@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\046_함꼐하는_응용예제\bin\Debug\046_함꼐하는_응용예제.exe.config
+C:\Users\qazws\Desktop\Study\C#\046_함꼐하는_응용예제\bin\Debug\046_함꼐하는_응용예제.exe
+C:\Users\qazws\Desktop\Study\C#\046_함꼐하는_응용예제\bin\Debug\046_함꼐하는_응용예제.pdb
+C:\Users\qazws\Desktop\Study\C#\046_함꼐하는_응용예제\obj\Debug\046_함꼐하는_응용예제.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\046_함꼐하는_응용예제\obj\Debug\046_함꼐하는_응용예제.exe
+C:\Users\qazws\Desktop\Study\C#\046_함꼐하는_응용예제\obj\Debug\046_함꼐하는_응용예제.pdb

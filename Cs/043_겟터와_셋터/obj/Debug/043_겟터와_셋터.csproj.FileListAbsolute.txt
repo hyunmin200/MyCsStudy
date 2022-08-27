@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\bin\Debug\043_겟터와_셋터.exe.config
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\bin\Debug\043_겟터와_셋터.exe
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\bin\Debug\043_겟터와_셋터.pdb
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\obj\Debug\043_겟터와_셋터.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\obj\Debug\043_겟터와_셋터.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\obj\Debug\043_겟터와_셋터.exe
+C:\Users\qazws\Desktop\Study\C#\043_겟터와_셋터\obj\Debug\043_겟터와_셋터.pdb

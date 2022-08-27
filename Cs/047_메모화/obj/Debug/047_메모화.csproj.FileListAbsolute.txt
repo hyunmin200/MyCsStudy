@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\047_메모화\bin\Debug\047_메모화.exe.config
+C:\Users\qazws\Desktop\Study\C#\047_메모화\bin\Debug\047_메모화.exe
+C:\Users\qazws\Desktop\Study\C#\047_메모화\bin\Debug\047_메모화.pdb
+C:\Users\qazws\Desktop\Study\C#\047_메모화\obj\Debug\047_메모화.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\047_메모화\obj\Debug\047_메모화.exe
+C:\Users\qazws\Desktop\Study\C#\047_메모화\obj\Debug\047_메모화.pdb
