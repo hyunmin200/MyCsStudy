@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\bin\Debug\004_자료형_검사.exe.config
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\bin\Debug\004_자료형_검사.exe
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\bin\Debug\004_자료형_검사.pdb
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\obj\Debug\004_자료형_검사.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\obj\Debug\004_자료형_검사.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\obj\Debug\004_자료형_검사.exe
+C:\Users\qazws\Desktop\Study\C#\004_자료형_검사\obj\Debug\004_자료형_검사.pdb

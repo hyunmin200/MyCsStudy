@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\bin\Debug\MyCsStudy.exe.config
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\bin\Debug\MyCsStudy.exe
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\bin\Debug\MyCsStudy.pdb
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\obj\Debug\000_MyCsStudy.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\obj\Debug\000_MyCsStudy.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\obj\Debug\MyCsStudy.exe
+C:\Users\qazws\Desktop\Study\C#\000_MyCsStudy\obj\Debug\MyCsStudy.pdb

@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\bin\Debug\029_클래스_개요.exe.config
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\bin\Debug\029_클래스_개요.exe
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\bin\Debug\029_클래스_개요.pdb
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\obj\Debug\029_클래스_개요.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\obj\Debug\029_클래스_개요.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\obj\Debug\029_클래스_개요.exe
+C:\Users\qazws\Desktop\Study\C#\029_클래스_개요\obj\Debug\029_클래스_개요.pdb

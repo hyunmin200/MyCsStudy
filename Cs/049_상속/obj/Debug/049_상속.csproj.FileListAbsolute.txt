@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\049_상속\bin\Debug\049_상속.exe.config
+C:\Users\qazws\Desktop\Study\C#\049_상속\bin\Debug\049_상속.exe
+C:\Users\qazws\Desktop\Study\C#\049_상속\bin\Debug\049_상속.pdb
+C:\Users\qazws\Desktop\Study\C#\049_상속\obj\Debug\049_상속.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\049_상속\obj\Debug\049_상속.exe
+C:\Users\qazws\Desktop\Study\C#\049_상속\obj\Debug\049_상속.pdb

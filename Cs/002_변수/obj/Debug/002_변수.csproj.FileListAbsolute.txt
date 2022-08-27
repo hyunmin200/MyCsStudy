@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\002_변수\bin\Debug\002_변수.exe.config
+C:\Users\qazws\Desktop\Study\C#\002_변수\bin\Debug\002_변수.exe
+C:\Users\qazws\Desktop\Study\C#\002_변수\bin\Debug\002_변수.pdb
+C:\Users\qazws\Desktop\Study\C#\002_변수\obj\Debug\002_변수.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\C#\002_변수\obj\Debug\002_변수.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\002_변수\obj\Debug\002_변수.exe
+C:\Users\qazws\Desktop\Study\C#\002_변수\obj\Debug\002_변수.pdb

@@ -1,0 +1,6 @@
+C:\Users\qazws\Desktop\Study\C#\008_문자\bin\Debug\008_문자.exe.config
+C:\Users\qazws\Desktop\Study\C#\008_문자\bin\Debug\008_문자.exe
+C:\Users\qazws\Desktop\Study\C#\008_문자\bin\Debug\008_문자.pdb
+C:\Users\qazws\Desktop\Study\C#\008_문자\obj\Debug\008_문자.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\008_문자\obj\Debug\008_문자.exe
+C:\Users\qazws\Desktop\Study\C#\008_문자\obj\Debug\008_문자.pdb
