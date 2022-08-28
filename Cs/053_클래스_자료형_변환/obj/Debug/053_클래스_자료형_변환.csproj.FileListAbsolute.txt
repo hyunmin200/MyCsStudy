@@ -1,0 +1,7 @@
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\bin\Debug\053_클래스_자료형_변환.exe.config
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\bin\Debug\053_클래스_자료형_변환.exe
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\bin\Debug\053_클래스_자료형_변환.pdb
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\obj\Debug\053_클래스_자료형_변환.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\obj\Debug\053_클래스_자료형_변환.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\obj\Debug\053_클래스_자료형_변환.exe
+C:\Users\qazws\Desktop\Study\C#\053_클래스_자료형_변환\obj\Debug\053_클래스_자료형_변환.pdb
