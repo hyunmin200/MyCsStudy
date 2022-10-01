@@ -1,2 +1,2 @@
 # MyCsStudy
-나의 Cs 공부
+C# 공부 저장소
