@@ -1,7 +1,0 @@
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\bin\Debug\025_Data_ToString.exe.config
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\bin\Debug\025_Data_ToString.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\bin\Debug\025_Data_ToString.pdb
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\obj\Debug\025_Data_ToString.csproj.AssemblyReference.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\obj\Debug\025_Data_ToString.csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\obj\Debug\025_Data_ToString.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\025_Data_ToString\obj\Debug\025_Data_ToString.pdb

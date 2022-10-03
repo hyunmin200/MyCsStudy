@@ -1,7 +1,0 @@
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\bin\Debug\026_Data_Parse.exe.config
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\bin\Debug\026_Data_Parse.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\bin\Debug\026_Data_Parse.pdb
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\obj\Debug\026_Data_Parse.csproj.AssemblyReference.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\obj\Debug\026_Data_Parse.csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\obj\Debug\026_Data_Parse.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\026_Data_Parse\obj\Debug\026_Data_Parse.pdb

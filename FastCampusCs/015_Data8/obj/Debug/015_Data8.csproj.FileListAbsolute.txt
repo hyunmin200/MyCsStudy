@@ -1,6 +1,0 @@
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\015_Data8\bin\Debug\015_Data8.exe.config
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\015_Data8\bin\Debug\015_Data8.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\015_Data8\bin\Debug\015_Data8.pdb
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\015_Data8\obj\Debug\015_Data8.csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\015_Data8\obj\Debug\015_Data8.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\015_Data8\obj\Debug\015_Data8.pdb

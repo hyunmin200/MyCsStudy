@@ -1,7 +1,0 @@
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\bin\Debug\007_Variable2.exe.config
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\bin\Debug\007_Variable2.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\bin\Debug\007_Variable2.pdb
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\obj\Debug\007_Variable2.csproj.AssemblyReference.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\obj\Debug\007_Variable2.csproj.CoreCompileInputs.cache
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\obj\Debug\007_Variable2.exe
-C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\007_Variable2\obj\Debug\007_Variable2.pdb
