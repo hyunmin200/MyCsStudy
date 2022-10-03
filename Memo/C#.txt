@@ -1,0 +1,264 @@
+c#강의 기록
+win32 -> 운영체제
+.net 프로그램 -> CLR -> 운영체제
+
+C# 언어 컴파일 과정
+C# 코딩 -> 컴파일 -> .NET Franmework -> 실행
+   visual Studio            
+
+C#언어
+-C++에서 파새오딘 객체 지향 언어
+-형식 안정성
+-java특징 + C, C++
+
+C#프로그래밍
+-입문자에게 적합한 언어
+-메모리 관리가 쉽다(Garbage Collector)
+-다양한 라이브러리 지원
+
+.NET아키텍처 구성 요소
+https://docs.microsoft.com/ko-kr/dotnet/architecture/
+
+비주얼 스튜디오 색깔별 의미
+회색 : 사용하지 않고 있음(지워도 프로그램에 영향 안감)
+파랑색 : 예약어(키워드)
+초록,하얀색 : 함수\
+
+프로잭트가 여러가지가 있다면 솔루션 탐색기에서 시작프로그램 설정하면 그것만 빌드됨
+빌드에서 원하는 것만 빌드 할 수 있음
+
+Using : 선언된 네임스페이스 내부 개체들에 접근
+	Using System말고 System.Console로 사용 가능
+namespace : 그룹화 | 동일한 함수의 이름 사용 가능
+class : 필드(field)(변수나 데이터를 묶어 두는 것), 메소드로(method)(함수)로 분리 | 프로그램을 구성하는 기본
+세미클론 ' ; ' : 코드 문장의 끝
+브레이스 ' {} ' : 코드 블록(블록 단위로 코드 구분)
+주석 : 한 줄 주석(//) | 여러 줄 주석(/* */)
+
+Static void Main
+-가장 중요한 메소드
+-최초의 진입점(Entry Point)
+-메인 메소드가 반드시 존재
+-프로젝트명: 002_HelloWorld2
+
+형태가 다양한 Main함수
+-함수가 가지는 특성
+-프로젝트명: 003_HelloWorld3
+
+Console 도큐먼트
+https://docs.microsoft.com/ko-kr/dotnet/api/system.console?view=netframework-4.7.2
+
+변수(Variable)
+-데이터를 저장하기 위한 공간
+-변수 선언("변수 만든다")로 표현
+
+-데이터형식과 식별자(이름)으로 구성
+-int num; //int(데이터 형식),num(식별자)
+
+데이터 형태(정수)
+https://rednooby.tistory.com/41
+-가장 빈번하게 사용되는 형태
+-소스코드(008_Data1)
+-소스코드(009_Data2)
+-소스코드(010_Data3)
+
+-정수 리터럴 접두사(10진수는 암묵적 변환)
+ - 2진수: 0b(OB) -> 0b00001111
+ - 16진수: 0x(OX) -> 0xFF
+-소스코드(011_Data4)
+
+데이터 형태(부동 소수점, 실수)
+https://rednooby.tistory.com/41
+-소스코드(012_Data5)
+ - 리터럴 접미사
+   -float(f), decimal(m)에만 사용(대부분 암묵적 변환)
+   -float f = 123.345f;, decimal d = 1234567891234567m;
+   -소스코드(013_Data6)
+
+문자 - char
+ - 작은 따옴표(' ')
+ - char a = 'A';
+
+문자열 - string
+ - 문자가 모여있는(열)
+ - 쌍따옴표(" ")
+ - string s = "abcdefg";
+-소스코드(014_Data7)
+-소스코드(015_Data8)
+
+문자열 제어
+ - '+': 두개의 문자열을 합
+   - "Hello" + "World"
+ - '==': 두개의 문자열 비교
+   - "Hello" == "World"
+ 
+ -Replace: 특정 문자를 변경
+ -ToUpper(): 모두 대문자
+ -ToLower(): 모두 소문자
+다른것도 많으니 한 번 찾아보기
+-소스코드(016_String)
+
+bool
+ - 논리 데이터 형태(참과 거짓)(True and False)
+ - 기본값은 false
+ - 조건문에 자주 사용
+-소스코드(017_Data_bool)
+
+object
+ - 객체 데이터 형태
+ - 어떤 데이터 형이든 모두 처리 가능
+ - 클래스에 상속이 적용
+-소스코드(018_Data_object)
+
+enum
+ - 열거형 데이터 형태
+ - enum 식별자(이름)
+   enum DAY_OF_WEEK
+   {
+	SUN,
+	MON,
+	THE,
+	WED,
+	THU,
+	FRI,
+	SAT
+   }
+-소스코드(019_Data_enum, 020_Data_enum2)
+
+nullable형식
+ - 기존 데이터형의 값 + null값 저장이 가능
+ - 사용법: 데이터 자료형? 식별자
+ - int? num = 100;
+ - HasValue, Value 사용
+-소스코드(021_Date_nullable)
+
+var
+ - 암시적 형식 지역 변수
+ - 선언과 동시에 초기화
+ - 지역 변수로만 사용 가능
+ - 'for ~ each'에서 자주 사용
+-소스코드(022_Date_var)
+
+const
+ - 상수
+ - 기존 변수 선언에 const 추가
+ - const int NUM = 100;
+-소스코드(023_Data_const)
+
+형 변환
+ - 데이터의 형식을 변경
+    - 정수 <-> 실수
+    - 문자열 <-> 기본 데이터형
+ - 캐스트연산자: '()'
+ - ToString()
+ - Parse()
+ - Convert.~
+
+-소스코드(024_Data_cast)
+-소스코드(025_Data_ToString, 026_Data_Parse, 027_Data_Convert)
+
+값형식 vs 참조형
+ - 값형식(Value) (call by value)
+    - 모든 수치행태, char, bool, enum...
+    - 두개의 변수가서로 영행을 주지 않음
+
+ - 참조형(Reference) (call by reference)
+    - 배열, string, class, interface, delegate
+    - 두개의 변수가 서로 영향을 준다
+    - 값을 저장하는 것이 아닌 주소를 참조
+
+- 소스코드(028_Data_reference)
+
+boxing과 unboxing
+int i = 123;  // a value type
+object o = i;  //boxing
+int j = (int)o;  //unboxing
+엄청 무거워짐
+박싱과 언박싱은 최소한 해야함 무조건
+- 소스코드(029_Data_boxing)
+
+Console.ReadLine()
+ - 한 번에 한 줄씩 문자열로 입력 받음
+- 소스코드(030_ReadLine)
+- 소스코드(031_ReadLine)
+
+프로그램 제어하기1
+
+단항 연산자
+ - 한 개의 데이터로 처리
+이항 연산자
+ - 두개의 데이터로 처리
+삼항 연산자
+ - 세개의 데이터로 처리
+
+연산자(Operators)
+산술 연산자
+ - +, -, *, /, %
+ - 모든 수치 데이터 형태
+- 소스코드(034_Operator1)
+- 소스코드(035_Operator2)
+
+증감 연산자
+ - 단항 연산자
+ - '++', '--'
+ - 전치 연산, 후치 연산
+ -    ++x        x++
+- 소스코드(036_Operator3)
+
+할당 연산자
+ - '=', '+=', '-=', '*=', '/=', '%='
+ - 연산 후 재할당
+ex)
+A += 5
+A = A + 5
+- 소스코드(036_01_Operator3)
+
+관계 연산자
+ - 피연산자의 비교(bool) (true, false)
+ - 조건문에 사용을 한다.
+ - '<', '>', '<=', '>=', '==', '!='
+- 소스코드(037_Operator4)
+
+논리 연산자
+ - 조건부 논리('&&', '||')
+ - 논리 부정 연산자('!')
+- 소스코드(038_Operator5)
+
+조건 연산자
+ - 삼항 연산자
+ - '?:'
+
+조건식 ? 처리1 : 처리2
+true면 처리1로 가고
+false면 처리2로 간다.
+- 소스코드(039_Operator6)
+
+비트 연산자
+ - 비트 단위로 데이터를 처리
+ - '<<' , '>>' //shift 연산자
+비트 논리 연산자
+ - '&','|','^','~'
+ - and, or, xor, not
+ - xor은 같지 않으면 1을 출력한다.
+0 xor 0 = 0
+0 xor 1 = 1
+1 xor 0 = 1
+1 xor 1 = 0
+
+쓰는 이유
+불필요한 메모리를 최소화 할 수 있음
+연산이 매우 빠름
+최적화가 쉬움
+
+게임에서 옵션값으로 켜고 끄고
+토글값으로 편하게 끄고 킬수있다.
+
+- 소스코드(040_Operator_Bit)
+
+null 병합 연산자
+ - null 값을 체크하는 연산자
+- 소스코드(041_Operator_null)
+
+연산자 우선순위
+https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/
+
