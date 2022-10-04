@@ -1,0 +1,8 @@
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\bin\Debug\050_Operator_for_for.exe.config
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\bin\Debug\050_Operator_for_for.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\bin\Debug\050_Operator_for_for.pdb
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\obj\Debug\050_Operator_for_for.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\obj\Debug\050_Operator_for_for.csproj.SuggestedBindingRedirects.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\obj\Debug\050_Operator_for_for.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\obj\Debug\050_Operator_for_for.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\050_Operator_for_for\obj\Debug\050_Operator_for_for.pdb

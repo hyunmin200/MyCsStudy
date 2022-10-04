@@ -1,0 +1,8 @@
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\bin\Debug\052_Operator_break.exe.config
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\bin\Debug\052_Operator_break.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\bin\Debug\052_Operator_break.pdb
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\obj\Debug\052_Operator_break.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\obj\Debug\052_Operator_break.csproj.SuggestedBindingRedirects.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\obj\Debug\052_Operator_break.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\obj\Debug\052_Operator_break.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\052_Operator_break\obj\Debug\052_Operator_break.pdb

@@ -1,0 +1,8 @@
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\bin\Debug\054_Operator_goto.exe.config
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\bin\Debug\054_Operator_goto.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\bin\Debug\054_Operator_goto.pdb
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\obj\Debug\054_Operator_goto.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\obj\Debug\054_Operator_goto.csproj.SuggestedBindingRedirects.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\obj\Debug\054_Operator_goto.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\obj\Debug\054_Operator_goto.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\054_Operator_goto\obj\Debug\054_Operator_goto.pdb
