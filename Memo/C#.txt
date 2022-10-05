@@ -339,5 +339,51 @@ https://learn.microsoft.com/ko-kr/dotnet/csharp/language-reference/operators/
 - 소스코드(053_Operator_continue)
 - 소스코드(054_Operator_goto)
 
+함수 처음 배워보기
 
+메소드(함수)
+ - 특정코드를 모아둔 코드 블록( { ~ } )
+ - 특정 기능을 분리해서 처리
 
+static void Print()
+{
+	Console.WriteLine("Hello World");
+}
+
+ - |접근 지정자| |반환 데이터형식| |메소드명(매개 변수, ...)|
+
+함수의 형태1
+ - 리턴형(X), 파라미터(X)
+-소스코드(058_Func1)
+
+함수의 형태2
+ - 리턴형(O), 파라미터(X)
+-소스코드(059_Func2)
+
+함수의 형태3
+ - 리턴형(O), 파라미터(O)
+-소스코드(060_Func3, 061_Func4)
+
+함수의 형태4
+ - 리턴형(X), 파라미터(O)
+
+Call by Value
+ - 값에 의한 호출
+ - 함수에서 값에 영향을 주지 않는다.
+ - 일반 함수
+ - void swap(int a, int b)
+
+Call by Refrence
+ - 주소에 의한 호출
+ - 함수에서 값에 영향을 준다.
+ - ref 키워드를 가지는 함수
+ - void swap(ref int a, ref int b)
+-소스코드(062_FuncSwap) 
+
+함수 제대로 활용해보기
+
+out
+ - ref키워드 처럼 레퍼런스 (주소값)
+ - 전달하는 변수 초기화 없이 사용 가능
+ - static void InitNum(out int addNum)
+-소스코드(063_Func_out)
