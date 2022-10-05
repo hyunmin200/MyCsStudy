@@ -10,28 +10,43 @@ namespace _057_Check
     {
         static void Main(string[] args)
         {
-            int[] stu = new int[5];
-            int max = 0;
-            int min = 1000;
-            for(int i = 0; i < stu.Length; i++)
+            //int[] stu = new int[5];
+            int max = int.MinValue;
+            int min = int.MaxValue;
+            //for(int i = 0; i < stu.Length; i++)
+            //{
+            //    Console.Write("학생의 성적을 입력하세요: ");
+            //    stu[i] = int.Parse(Console.ReadLine());
+            //}
+            //for(int i = 0; i < stu.Length; i++)
+            //{
+            //    if(min > stu[i])
+            //    {
+            //        min = stu[i];
+            //    }
+            //    if(max < stu[i])
+            //    {
+            //        max = stu[i];
+            //    }
+            //}
+
+            for(int i = 0; i < 5; i++)
             {
                 Console.Write("학생의 성적을 입력하세요: ");
-                stu[i] = int.Parse(Console.ReadLine());
-            }
-            for(int i = 0; i < stu.Length; i++)
-            {
-                if(min > stu[i])
+                int inputNum = int.Parse(Console.ReadLine());
+
+                if(max < inputNum)
                 {
-                    min = stu[i];
+                    max = inputNum;
                 }
-                if(max < stu[i])
+
+                if(min > inputNum)
                 {
-                    max = stu[i];
+                    min = inputNum;
                 }
             }
             Console.WriteLine("최대값: {0}", max);
             Console.WriteLine("최소값: {0}", min);
-            
         }
     }
 }
