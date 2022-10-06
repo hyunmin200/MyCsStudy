@@ -387,3 +387,23 @@ out
  - 전달하는 변수 초기화 없이 사용 가능
  - static void InitNum(out int addNum)
 -소스코드(063_Func_out)
+
+디폴트 매개 변수(default parameter)
+ - 초기화 파라미터
+ - 반드시 파라미터 뒤에서부터 순차적 초기화
+-소스코드(064_Func_default)
+
+매소드 오버로딩
+ - 메소드 이름이 중복
+ - 파라미터의 형식 다르게
+ - 파라미터의 수 다르게
+static int Add(int a, int b)
+static int Add(int a, int b, int c)
+static int Add(float a, float b)
+-소스코드(065_Func_Overloading)
+
+params
+ - 파라미터 제한 없이 처리
+ - int Total(params int[] values)
+-소스코드(066_Func_params)
+
