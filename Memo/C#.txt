@@ -407,3 +407,35 @@ params
  - int Total(params int[] values)
 -소스코드(066_Func_params)
 
+
+처음 배워보는 배열
+
+일차원 배열
+ - 변수 선언이 많아지는 경우
+ - 동일한 데이터형
+
+ - 배열의 GetType()
+
+ - int[] arrNum = new int[5];
+
+일차원 배열 선언과 초기화
+ - int[] arrNum = new int[3];
+ - int[] arrNum = new int[]{0, 1, 2};
+ - int[] arrNum = new int[3]{0, 1, 2};
+ - int[] arrNum = {0, 1, 2};
+
+ - index란?
+	- 배열에 접근하는 위치 번호
+	- 이넥스는 -부터 시작(0 ~ (N-1))d
+-소스코드(068_Array_Init)
+
+foreach - 반복문
+ - 읽기 전용
+ - foreach(자료형|식별자 in 배열)
+
+ foreach(int data in arrNum)
+ {
+	
+ }
+-소스코드(068_1_Array_Init2)
+
