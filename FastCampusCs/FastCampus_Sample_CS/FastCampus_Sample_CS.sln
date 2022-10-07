@@ -143,6 +143,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPoint01", "CheckPoint0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPoint02", "CheckPoint02\CheckPoint02.csproj", "{0716C1F5-F65C-4376-B6A6-22924209E342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "068_Array_Init", "068_Array_Init\068_Array_Init.csproj", "{8A4C8AAF-6359-4AB0-BF96-CF7F7C1C9DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "068_1_Array_Init2", "068_1_Array_Init2\068_1_Array_Init2.csproj", "{B3DF1FA0-A003-4280-B734-BA00C68C3150}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -429,6 +433,14 @@ Global
 		{0716C1F5-F65C-4376-B6A6-22924209E342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0716C1F5-F65C-4376-B6A6-22924209E342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0716C1F5-F65C-4376-B6A6-22924209E342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A4C8AAF-6359-4AB0-BF96-CF7F7C1C9DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4C8AAF-6359-4AB0-BF96-CF7F7C1C9DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4C8AAF-6359-4AB0-BF96-CF7F7C1C9DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4C8AAF-6359-4AB0-BF96-CF7F7C1C9DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DF1FA0-A003-4280-B734-BA00C68C3150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DF1FA0-A003-4280-B734-BA00C68C3150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DF1FA0-A003-4280-B734-BA00C68C3150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DF1FA0-A003-4280-B734-BA00C68C3150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

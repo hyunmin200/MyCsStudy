@@ -24,18 +24,17 @@ namespace _067_Check
             mat = int.Parse(Console.ReadLine());
             Console.Write("영어 성적 입력(정수)? ");
             eng = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("kor: {0}, mat: {1}, eng: {2}", kor, mat, eng);
         }
 
         static int Total(int kor, int mat, int eng)
         {
+            Console.WriteLine("kor: {0}, mat: {1}, eng: {2}", kor, mat, eng);
             return kor + mat + eng;
         }
 
         static void average(int total, out float avg)
         {
-            avg = (float)total / 3f;
+            avg = total / 3;
         }
 
         static void Main(string[] args)

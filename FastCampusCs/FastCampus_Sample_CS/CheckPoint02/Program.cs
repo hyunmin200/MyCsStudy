@@ -56,39 +56,39 @@ namespace CheckPoint02
         {
             Console.WriteLine(Line);
 
-                for (int i = 0; i<runA; i++)
-                    Console.Write(" ");
-                Console.Write("1");
+            for (int i = 0; i < runA; i++)
+                Console.Write(" ");
+            Console.Write("1");
 
-                for (int i = (END_LINE - 2) - runA; i >= 0; i--)
-                    Console.Write(" ");
-                Console.WriteLine("|");
+            for (int i = (END_LINE - 2) - runA; i >= 0; i--)
+                Console.Write(" ");
+            Console.WriteLine("|");
 
-                for (int i = 0; i<runB; i++)
-                    Console.Write(" ");
-                Console.Write("2");
+            for (int i = 0; i < runB; i++)
+                Console.Write(" ");
+            Console.Write("2");
 
-                for (int i = (END_LINE - 2) - runB; i >= 0; i--)
-                    Console.Write(" ");
-                Console.WriteLine("|");
+            for (int i = (END_LINE - 2) - runB; i >= 0; i--)
+                Console.Write(" ");
+            Console.WriteLine("|");
 
-                for (int i = 0; i<runC; i++)
-                    Console.Write(" ");
-                Console.Write("3");
+            for (int i = 0; i < runC; i++)
+                Console.Write(" ");
+            Console.Write("3");
 
-                for (int i = (END_LINE - 2) - runC; i >= 0; i--)
-                    Console.Write(" ");
-                Console.WriteLine("|");
+            for (int i = (END_LINE - 2) - runC; i >= 0; i--)
+                Console.Write(" ");
+            Console.WriteLine("|");
 
-                for (int i = 0; i<runD; i++)
-                    Console.Write(" ");
-                Console.Write("4");
+            for (int i = 0; i < runD; i++)
+                Console.Write(" ");
+            Console.Write("4");
 
-                for (int i = (END_LINE - 2) - runD; i >= 0; i--)
-                    Console.Write(" ");
-                Console.WriteLine("|");
+            for (int i = (END_LINE - 2) - runD; i >= 0; i--)
+                Console.Write(" ");
+            Console.WriteLine("|");
 
-                Console.WriteLine(Line);
+            Console.WriteLine(Line);
         }
 
         static bool CheckResult()
@@ -129,7 +129,7 @@ namespace CheckPoint02
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            
+
             while (true)
             {
                 ClearScreen();
