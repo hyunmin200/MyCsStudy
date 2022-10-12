@@ -1,0 +1,8 @@
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\bin\Debug\079_this.exe.config
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\bin\Debug\079_this.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\bin\Debug\079_this.pdb
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\obj\Debug\079_this.csproj.AssemblyReference.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\obj\Debug\079_this.csproj.SuggestedBindingRedirects.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\obj\Debug\079_this.csproj.CoreCompileInputs.cache
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\obj\Debug\079_this.exe
+C:\Users\qazws\Desktop\Study\패스트캠퍼스 유니티 강의\C#\FastCampus_Sample_CS\079_this\obj\Debug\079_this.pdb
