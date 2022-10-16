@@ -22,7 +22,7 @@ https://docs.microsoft.com/ko-kr/dotnet/architecture/
 비주얼 스튜디오 색깔별 의미
 회색 : 사용하지 않고 있음(지워도 프로그램에 영향 안감)
 파랑색 : 예약어(키워드)
-초록,하얀색 : 함수\
+초록,하얀색 : 함수
 
 프로잭트가 여러가지가 있다면 솔루션 탐색기에서 시작프로그램 설정하면 그것만 빌드됨
 빌드에서 원하는 것만 빌드 할 수 있음
@@ -706,3 +706,421 @@ get, set키워드로 값을 private속성의 필드에 넣고 값을 가져올 �
   public int Num { get; set; } = "NoName" //위에 코드가 자동으로 구현됨 //초기화도 가능
 - 소스코드(091_Property01)
 - 소스코드(092_Property02)
+
+컬렉션, 인덱서
+
+컬렉션(Collection)
+ - 데이터 저장, 검색, 기타 데이터 처리 특화
+ - 자료구조(DaaStructure)
+ - 선언방법, 참조방법, 중요 메소드
+
+ArrayList
+ - 배열과 비슷
+- 크기가 유동적(동적)
+가변적으로 사용가능
+
+ArrayList arrList = new ArrayList();
+
+int[] arrData = { 100, 200, 300 };
+ArrayList arrCopyList = new ArrayList(arrData);
+- 소스코드(095_ArrayList)
+
+Queue
+ - 순차적인 데이터 처리
+ - FIFO(First in First Out)
+ - 게임에서 순차적 AI기능 구현
+ - Dequeue(), Enqueue(), Peek()
+
+예를 들어 설명을 해보자면
+접시가 들어가는 구멍에 접시를 넣으면 접시가 나오는 구멍이 따로 있는 것이다.
+그걸 데이터로 설명하면
+데이터가 들어가는 곳과 나오는 곳이 분리되어 FIFO 또는 LILO 방식을 가지게 된다.
+
+먼저들어가면 먼저나오고 늦게 들어가면 늦게 나오는 형태
+
+Queue queue = new Queue();
+
+int[] arrData = { 100, 200, 300 };
+Queue queueCopy = new Queue(arrData);
+- 소스코드(096_Queue)
+
+
+
+Stack
+ - 순차적 데이터 처리
+ - LIFO(Last in First Out)
+ - 뒤로 가기 기능 구현 (ctrl + z)
+ - Push(), Pop(), Peek()
+Queue와 반대되는 형태
+
+예를 들어 설명을 해보자면
+접시를 어떠한 통에 넣었을 때 우리는 접시를 꺼낼때 위에 있는 접시(마지막에 넣은 접시)내듯이
+마지막에 접시가 가장 먼저 나가는 형태이다.
+
+그걸 데이터로 설명을 한다면
+처음 들어간 데이터는 맨 마지막으로 나오고 마지막으로 들어간 데이터는 제일 먼저 나온다는 것이다.
+
+Stack stack = new Stack();
+stack.Push("a");
+
+int[] arrData = { 100, 200, 300 };
+Stack stackCopy = new Stack(arrData);
+- 소스코드(097_Stack)
+
+
+Hashtable
+ - 키와 값이 쌍으로 구성되는 데이터
+ - 탐색 속도가 빠르고 사용이 편리
+
+Hashtable hashTable = new Hashtable();
+hashTable.Add("name", "Jack");
+hashTable["weight"] = 10.8f;
+
+Hashtable hashTableCopy = new Hashtable()
+{
+	["pos"] = 10,
+	["name"] = "Jack",
+	["weight"] = 10.8f;
+}
+- 소스코드(098_Hashtable)
+
+
+인덱서
+ - 배열 or 컬렉션의 외부 접근
+ - 키워드: get, set, return, value, this[int index]
+
+public int this[int index]
+{
+	get { return num[index]; }
+	set { num[index] = value; }
+}
+- 소스코드(099_Indexer01)
+- 소스코드(100_Indexer02)
+
+
+일반화 프로그래밍
+
+일반화(Generic)
+ - 클래스, 함수 일반화 가능
+ - <T> 키워드
+ - 장점:
+	- Boxing, UnBoxing을 줄일 수 있음
+	- 불필요한 오버로딩을 줄일 수 있음
+
+static void GenericPrint<T> (T data) {
+	Console.WriteLine("data: {0}", data};
+}
+
+static void GenericPrint<T>(T[] arrData) {
+	for(int i = 0; i < arrData.Length; i++) {
+		Console.WriteLine("arrData: {0}, arrData[i]);
+	}
+}
+- 소스코드(103_GenericFunc)
+
+일반화(Generic)
+ - 클래스 일반화
+
+class GenericAA<T>
+{
+	private T num;
+	public T GetNum() {
+		return num;
+	}
+
+	public void SetNum(T data) {
+		num = data;
+	}
+}
+
+GenericAA<int> AA = new GenericAA<int>();
+GenericAA<float> BB = new GenericAA<float>();
+- 소스코드(104_GenericClass)
+
+
+dynamic 키워드
+ - object, var
+ - 런타임에 변수 형식 변경 가능
+ - 일반화 함수에서 변수타입 대응 가능
+
+static T AddArray<T> (T[] arrDatas) {
+	dynamic temp = 0;
+}
+
+default 키워드
+ - value type: 0 초기화
+ - reference type: null 초기화
+
+T temp = default(T)
+for(int i = 0; i < arrDatas.Length; i++) {
+	temp += (dynamic)arrDatas[i];
+}
+- 소스코드(105_dynamic)
+
+where 키워드(한정자)
+ - 매개변수 제한 기능
+
+class AA<T> where T : struct //값형식으로 제한
+{
+	private T sData;
+}
+
+class BB<T> where T : class
+{
+	private T sRefData;
+}
+
+interface II{
+	void IIPrint();
+}
+
+class CC<T> where T : II //interface로 제한
+{
+	public T _interface;
+}
+- 소스코드(106_where)
+
+
+일반화 컬렉션(Collections Generic)
+ - 컬렉션의 박싱과 언박싱의 단점을 해결
+ - List<T>
+ - Queue<T>
+ - Stack<T>
+ - Dictionary<T>
+
+using System.Collections.Generic;
+
+- 소스코드(107_List, 108_Queue)
+- 소스코드(109_Stack, 110_Dictionary)
+
+
+
+예외 처리
+
+
+try ~ catch 키워드
+ - 프로그램의 안정성
+
+try{
+	inputNum = int.Parse(readStr);
+	isCorrect = true;
+}
+catch(FormatExxception e){
+	Console.WriteLine(e.Message);
+}
+- 소스코드(111_try_catch)
+
+
+System.Exception
+ - 예외 클래스의 Base
+
+try {
+	checked {
+		maxNum += Int32.MaxValue;
+	}
+}
+catch(OverFlowException e) {
+	Console.WriteLine("e.Message: " + e.Message);
+	Console.WriteLine("e.Source: " + e.Source);
+}
+catch(Exception e) {
+	Console.WriteLine("e.Message: " + e.Message);
+}
+- 소스코드(112_Exception)
+
+
+throw 키워드
+
+ - 상위 호출 메소드로 예외 객체를 전달
+static void ThrowFunc(int data) {
+	if(data > 0) {
+		Console.WriteLine("ThrowFunc data: " + data);
+	}
+	else {
+		throw new Exception("data에 0이 입력되었습니다.");
+	}
+}
+
+ - 조건 연산자에서 사용
+int result = 101;
+try {
+	int checkNum = (result < 100) ? result : throw new Exception("100 이하만 가능");
+}catch(Exception e) {
+	Console.WriteLine(e.Message);
+}
+- 소스코드(113_throw)
+
+
+try ~ catch ~ finally 키워드
+ - 예외 상황과 관련 없이 무조건 처리 (예외 상황이건 예외 상황이 아니건 finally는 무조건 실행이 된다.)
+
+try {
+	ThrowFunc(0);
+}
+catch(Exception e) {
+	Console.WriteLine(e.Message);
+}
+finally {
+	Console.WriteLien("");
+}
+- 소스코드(114_finally)
+
+
+사용자 정의 예외 클래스
+
+ - 기존 예외처리 클래스에서 상속
+class MyException : ApplicationException
+{
+	public int Num { get; set; }
+	public MyExecption() : base() {
+	}
+	public MyException(int a) {
+		Num = a;
+	}
+
+	public override string ToString() {
+		return "Num: " + Num;
+	}
+}
+
+ - when 키워드, StackTrace 키워드
+Console.WriteLine("when(e.Num == 0)");
+Console.WriteLine("MyException:  " + e.StackTrace);
+- 소스코드(115_CustomException)
+
+
+델리게이트와 이벤트
+
+델리게이트(delegate)
+ - 대리자(메소드 참조형)
+ - 메소드의 틀을 만들어 소통
+ - 클래스간 통신에 활용
+
+ - delegate 리턴형 식별자(파라미터);
+delegate int DelegateFunc(int a);
+
+- 소스코드(116_delegate)
+
+
+델리케이트 선언 방법
+
+delegate void DelegateTest(int a, int b);
+
+static void Sum(int a, int b) {
+	Console.WriteLine("a + b = " + (a + b));
+}
+
+(미리 대리자로 사용할 함수를 만들었놓았을 때)
+//1: 기본 선언
+DelegateTest dt = new DelegateTest(Sum);
+
+//2: 간략한 선언
+DelegateTest dt2 = Sum;
+
+(미리 함수를 만들어 놓지 않았을 때)
+//3: 익명 함수 선언 
+DelegateTest dt3 = delegate (int a, int b) {
+	Console.WriteLine("a + b = " + (a + b));
+};
+
+//4: 람다식 선언
+DelegateTest dt4 = (a, b) => {
+	Console.WriteLine("a + b = " + (a + b));
+};
+
+dt = delegate (int a, int b)
+{
+	Console.WriteLine("a - b:" + (a - b));
+};
+이런식으로 원래 있었던 것을 재참조?정의? 가능
+- 소스코드(117_delegateDeclare)
+
+
+델리게이트 함수 파라미터 활용
+ - 일반적인 사용
+
+delegate void delegateFunc();
+
+delegateFunc CallOkFunc;
+delegateFunc CallCancelFunc;
+
+public void Message(string msg, delegateFunc okFunc, delegateFunc cancelFunc)
+- 소스코드(118_delegateParam)
+
+
+이벤트(event)
+(이벤트 사용시 델리게이트가 반드시 있어야 함)
+ - delegate와 차이점
+	- 할당 연산자( = ) 사용 불가
+	- 클래스 외부 호출 불가
+	- 클래스 멤버 필드에서 사용
+ public delegate void delegateEvent(string msg);
+ public event delegateEvent myEvent;
+- 소스코드(119_event)
+
+델리게이트나 이벤트는 null값이 아닌 것을 확인하고 가는 것이 좋기 때문에
+if(null != myEvent)
+이런식의 코드는 기본적으로 넣어두는게 좋음
+
+델리게이트 vs 이벤트 차이점
+
+델리게이트
+내가 어떤 함수를 콜하고 그 이후에 콜백 즉 다시 처리해야 할 때에는 대리자를 많이 사용한다.
+
+이벤트
+객체 즉 클래스 내부에서 어떤 상태변화나 이벤트를 발생하는 것을 처리해야할 때 사용한다.
+
+
+람다식
+
+람다식(Rambda)
+ - 익명 메소드
+ - 메소드와 동일하게 입력(파라미터), 출력(리턴)
+ - (매개변수) => { 함수 내부(식) };
+
+(str) => { Console.WriteLine(str); };
+da = (a) => { return a + a; }
+- 소스코드(120_Rambda)
+
+
+리스트와 람다식
+ - 리스트 함수 중 delegate파라미터
+ - Collections에서 다양하게 활용
+
+listData.FindAll((num) => { return num < 200; });
+
+listData.Find((num) => num % 2 == 0);
+- 소스코드(121_ListRambda)
+
+
+함수와 람다식
+ - 함수의 파라미터
+
+delegate void dPrint(string str);
+
+static public void CallBackFunc(dPrint dp, string msg)
+
+CallBackFunc(CallPrint, "Hello"); //함수 연결
+CallBackFunc(delegate(string str) { Console.WriteLine(str); }, "Hello"); //delegate 직접
+CallBackFunc((string str) => { Console.WriteLine(str); }, "Hello"); //람다의 식형태
+CallBackFunc((str) => Console.WriteLine(str), "Hello"); //람다식 기본..
+
+- 소스코드(122_FuncRambda)
+
+
+Action과 Func
+ - Action
+	- 리턴값이 없는 경우
+
+public delegate void Action();
+public delegate void Action<in T1, in T2, in T3>(T1 arg1, T2 arg2, T3 arg3);
+
+- 소스코드(123_Action)
+
+ - Func
+	- 리턴값이 있는 경우
+
+public delegate TResult Func<out TResult>();
+public delegate TResult Func<in T1, in T2, in T3, out TResult>(T1 arg1, T2 arg2, T3 arg3);
+
+- 소스코드(124_Func)
