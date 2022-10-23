@@ -285,6 +285,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPoint05", "CheckPoint0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "132_File01", "132_File01\132_File01.csproj", "{86A3FF35-1597-4132-B757-694BF4DE0669}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "133_File_BitConverter", "133_File_BitConverter\133_File_BitConverter.csproj", "{102679DF-A36C-495F-A103-3E38B24F074E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "134_File_StreamWriterReader", "134_File_StreamWriterReader\134_File_StreamWriterReader.csproj", "{D87179E1-736D-4234-9AF7-3047559F9A77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -855,6 +859,14 @@ Global
 		{86A3FF35-1597-4132-B757-694BF4DE0669}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86A3FF35-1597-4132-B757-694BF4DE0669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86A3FF35-1597-4132-B757-694BF4DE0669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102679DF-A36C-495F-A103-3E38B24F074E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102679DF-A36C-495F-A103-3E38B24F074E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102679DF-A36C-495F-A103-3E38B24F074E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102679DF-A36C-495F-A103-3E38B24F074E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87179E1-736D-4234-9AF7-3047559F9A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87179E1-736D-4234-9AF7-3047559F9A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87179E1-736D-4234-9AF7-3047559F9A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87179E1-736D-4234-9AF7-3047559F9A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
