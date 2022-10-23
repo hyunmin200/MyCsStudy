@@ -1243,3 +1243,32 @@ FIle.Copy("a.txt", "c.txt");
 FileInfo dst = fileInfo.CopyTo("d.txt");
 
 - 소스코드(132_File01)
+
+
+System.IO //ms docs에서 찾아서 보기
+ - 파일과 데이터 스트림에 읽고 쓸 수 있게 하는 형식
+ - 기본 파일과 디렉터리 지원을 제공하는 형식
+ - msdn참조
+
+
+바이트 입출력
+ - FileSteam, BitConverter
+ - 데이터 형식을 byte 배열로 변환(BitConverter)
+ - 사용빈도 낮음
+
+- 소스코드(133_File_BitConverter)
+
+
+텍스트 입출력
+ - StreamWriter, StreamReader
+
+- 소스코드(134_File_StreamWriterReader)
+
+
+사용자 자료 입출력
+ - [Serializable]
+ - BinaryFormatter, Serialize, Deserialize
+ - 사용빈도 높음
+
+- 소스코드(135_File_BinaryFormatter)
+- 소스코드(136_File_BinaryFormatter02)
