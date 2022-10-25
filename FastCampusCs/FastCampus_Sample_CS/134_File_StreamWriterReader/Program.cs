@@ -22,8 +22,6 @@ namespace _134_File_StreamWriterReader
 
             sw.Close();
 
-
-
             //읽기..
             FileStream fsRead = File.Open("a.txt", FileMode.Open); //new FileStream("a.txt", FileMode.Open);  // File.Create("a.txt");
             StreamReader sr = new StreamReader(fsRead);
@@ -64,6 +62,7 @@ namespace _134_File_StreamWriterReader
             //       Console.WriteLine(streamReader.ReadLine());
             //    }
             //}
+
         }
     }
 }
