@@ -1398,3 +1398,25 @@ A라는 쓰레드가 A라는 유저와 만나서 알아서 해주면 되는 것�
 
 - 소스코드(140_Thread_Abort_Join)
 
+
+스레드 동기호(Thread Synchronization)
+ - 데이터나 변수들을 공유하는 경우 ( 크리티컬 섹션 )
+ - lock
+ - 데드락
+ - Monitor, Mutex
+
+원래는 쓰레드별로 각각의 변수나 데이터를 가지고 있지만
+동기화를 하면 변수하나를 여러개의 쓰레드로 공유를 할 수 있다.
+
+- 소스코드(141_Thread_Synchronization)
+
+
+Task, Task<TResult>
+- 비동기 코드
+ - Action delegate
+ - Func delegate
+
+- 소스코드(142_Tasks)
+
+C#도 계속 공부하기
+끝
